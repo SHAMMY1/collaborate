@@ -3,7 +3,7 @@ const init = () => {
     const app = express();
 
     app.get('/', (req, res) => {
-        res.send('<h1>COLLABORATE</h1>')
+        res.send('<html><head></head><body><h1>COLLABORATE</h1></body></html>');
     });
 
     return Promise.resolve(app);

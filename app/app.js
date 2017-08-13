@@ -4,9 +4,9 @@ const init = () => {
 
     app.get('/', (req, res) => {
         res.send('<h1>COLLABORATE</h1>')
-    })
+    });
 
     return Promise.resolve(app);
-}
+};
 
-module.exports = { init }
+module.exports = { init };
